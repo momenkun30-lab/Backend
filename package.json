@@ -1,16 +1,18 @@
 {
-  "name": "redline-backend-api",
+  "name": "redline-backend",
   "version": "1.0.0",
-  "description": "The shared backend API server connecting RedLine Admin Dashboard and Client apps to MongoDB Atlas",
-  "main": "server.js",
+  "description": "Express backend for RedLine connected to MongoDB Atlas",
+  "main": "express_backend_example.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node express_backend_example.js"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.3"
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
