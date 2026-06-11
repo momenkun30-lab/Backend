@@ -1,0 +1,2 @@
+PORT=3000
+MONGO_URI=mongodb+srv://admin:N1a5nZ8IhU4BJ2c7@cluster0.odxgej5.mongodb.net/RedLineDB?retryWrites=true&w=majority&appName=Cluster0
